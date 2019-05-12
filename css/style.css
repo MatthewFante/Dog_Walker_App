@@ -5,6 +5,8 @@
 
 body{
     background-image: url("../img/grass.jpg");
+    width: 90%;
+    margin:auto;
 }
 
 /* Header and Navigation Bar */
@@ -17,13 +19,9 @@ header{
     border-radius: 20px;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-
-.confirmation,
-.booking{    
-    display: none;
-}
 
 .main-nav{
     margin: 0;
@@ -37,7 +35,9 @@ header{
     height: 2em;
 
 }
-
+.homeLink,
+.scheduleLink,
+.mainHeadLink,
 .main-nav a{
     text-decoration: none;
     color: black;
@@ -58,8 +58,15 @@ h3{
 
 
 /* Main div */
-main{
+
+main,
+footer{
     text-align: center;
+    margin:auto;
+}
+
+.ourMission{
+    padding:10px;
 }
 
 .mainImg{
@@ -81,6 +88,7 @@ input[type="search"],
 input[type="tel"],
 input[type="time"],
 input[type="url"],
+input[type="datetime-local"],
 textarea,
 select {
   background: rgba(255,255,255,0.1);
@@ -93,4 +101,29 @@ select {
   background-color: #ffffffa8;
   color: #000000;
   margin-bottom: 30px;
+}
+
+
+@media(min-width: 600px){
+    .main-nav{
+        display: flex;
+
+    }
+
+    header{
+    }
+
+    main,
+    footer{
+        width: 60%;
+    }
+}
+
+@media(min-width: 900px){
+
+    main,
+    footer{
+        width: 40%;
+        max-width: 500px;;
+    }
 }

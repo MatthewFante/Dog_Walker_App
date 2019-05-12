@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Walk A Goodboi&trade;</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>  
+    <header class="headerBlank">
+        <!-- HEADER CONTENTS FILLED BY JS -->
+    </header>
+
+    <main>
+        <img class="mainImg" src="img/goodboi.jpg">
+
+        <div class="wrapper" id="top">
+            <div class="booking">
+                <form action="index.html" method="post">
+                          <h3>Book a Walker:</h3>
+
+                          <label for="date">Desired Date and Time:</label></br>
+                          <input type="date" id="date" name="date">&nbsp;
+                          <input type="time" id="time" name="time"></br>
+                          
+                          <label for="owner_name">Owner's Name:</label>
+                          <input type="text" id="owner_name" name="owner_name"></br>
+
+                          <label for="dog_name">Dog's Name:</label>
+                          <input type="text" id="dog_name" name="dog_name"></br>
+
+                          <label for="phone">Phone Number:</label>
+                          <input type="tel" id="phone" name="tel_number" pattern="[0-9]{10}"></br>
+                          
+                          <label for="mail">Email address:</label>
+                          <input type="email" id="mail" name="user_email"></br>
+
+                          <label for="requests">Special Requests:</label>
+                          <textarea id="requests" name="special_requests"></textarea></br>
+
+                         <a id="schedule" class="scheduleLink">Schedule It!</a>
+                      </form>
+            </div>
+
+            <div class="confirmation">
+                <!-- CONFIRMATION CONTENTS FILLED BY JS -->
+            </div>
+
+        </div>
+</main>
+
+<footer>
+    <small>&copy; Matthew Fante 2019</small>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
