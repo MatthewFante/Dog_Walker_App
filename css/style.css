@@ -47,7 +47,18 @@ header{
     text-decoration: none;
     color: black;
     width: 100%;
-    /* display: block; */
+
+}
+
+.email,
+.phone{
+    display:inline;
+}
+.homeLink,
+.scheduleLink,
+.mainHeadLink,
+.main-nav a{
+    display: block;
 }
 
 .main-nav a:hover{
@@ -55,12 +66,26 @@ header{
 }
 
 
-h1,
+h1{
+    margin: 10px 0 0 0;
+}
+
 h2,
 h3{
     margin: 0;
 }
 
+h3{
+    margin-bottom: 10px;
+}
+
+footer{
+    margin-bottom: 10px;
+}
+
+.contactInfo{
+    margin-top: 0;
+}
 /* Main div */
 
 header,
