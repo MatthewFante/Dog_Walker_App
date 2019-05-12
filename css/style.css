@@ -56,9 +56,9 @@ h3{
     margin: 0;
 }
 
-
 /* Main div */
 
+header,
 main,
 footer{
     text-align: center;
@@ -110,9 +110,7 @@ select {
 
     }
 
-    header{
-    }
-
+    header, 
     main,
     footer{
         width: 60%;
@@ -120,7 +118,7 @@ select {
 }
 
 @media(min-width: 900px){
-
+    header, 
     main,
     footer{
         width: 40%;
