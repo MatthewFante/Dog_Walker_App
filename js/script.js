@@ -13,7 +13,7 @@ function headerContents(){
     html += '<h2>Dog Walking Service</h2>';
     html += '<ul class="main-nav">';
     html += '<li><a href="booking.html">Book a Walker</a></li>';
-    html += '<li><a href="#">Contact Us</a></li>';
+    html += '<li><a href="contact.html">Contact Us</a></li>';
     html += '</ul>';
     return html;
 };
@@ -27,7 +27,7 @@ function confirm(){
     html += 'Your appointment request for the following has been received for: </br>';
     html += appt_date.value + '&nbsp;&nbsp;' + appt_time.value + '</br>';
     html += 'You will receive a confirmation email shortly.'
-    html += '<a href="index.html" class="homeLink">Go Home.</a>';
+    html += '</br><a href="index.html" class="homeLink">Go Home.</a>';
     return html;
 };
 

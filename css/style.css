@@ -10,6 +10,8 @@ body{
 }
 
 /* Header and Navigation Bar */
+
+.contact,
 .confirmation,
 footer,
 .booking,
@@ -35,6 +37,9 @@ header{
     height: 2em;
 
 }
+
+.email,
+.phone,
 .homeLink,
 .scheduleLink,
 .mainHeadLink,
@@ -42,7 +47,7 @@ header{
     text-decoration: none;
     color: black;
     width: 100%;
-    display: block;
+    /* display: block; */
 }
 
 .main-nav a:hover{
@@ -105,11 +110,6 @@ select {
 
 
 @media(min-width: 600px){
-    .main-nav{
-        display: flex;
-
-    }
-
     header, 
     main,
     footer{
