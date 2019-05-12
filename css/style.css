@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+body{
+    background-image: url("../img/grass.jpg");
+}
+
+/* Header and Navigation Bar */
+.confirmation,
+footer,
+.booking,
+.ourMission,
+header{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.confirmation,
+.booking{    
+    display: none;
+}
+
+.main-nav{
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+.main-nav li{
+    padding-left: 10px;
+
+    height: 2em;
+
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    display: block;
+}
+
+.main-nav a:hover{
+    color: darkslategrey;
+}
+
+
+h1,
+h2,
+h3{
+    margin: 0;
+}
+
+
+/* Main div */
+main{
+    text-align: center;
+}
+
+.mainImg{
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: gold 2px solid;
+
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 1em;
+  height: auto;
+  margin: 0;
+  padding: 15px;
+  width: 90%;
+  background-color: #ffffffa8;
+  color: #000000;
+  margin-bottom: 30px;
+}
