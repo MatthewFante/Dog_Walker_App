@@ -1,8 +1,5 @@
-const header = document.querySelector('.headerBlank');
-const footer = document.querySelector('.footerBlank');
-
 // Adjust contents of header and footer here
-
+const header = document.querySelector('.headerBlank');
 function headerContents(){
     var html = "";
     html += '<h1><a class="mainHeadLink" href="index.html">Walk A Goodboi&trade;</a></h1>';
@@ -15,11 +12,10 @@ function headerContents(){
 };
 header.innerHTML = headerContents();
 
-
+const footer = document.querySelector('.footerBlank');
 function footerContents(){
     var html = "";
     html += "<small><a href='https://github.com/MatthewFante'>&copy; Matthew Fante 2019</a></small>"
     return html;
 };
-
 footer.innerHTML = footerContents();
