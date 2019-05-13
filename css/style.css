@@ -23,7 +23,6 @@ header{
 }
 
 /* Header and Navigation Bar */
-
 .main-nav{
     margin: 0;
     list-style: none;
@@ -35,6 +34,7 @@ header{
     height: 2em;
 }
 
+.homeLink:hover,
 .main-nav a:hover{
     color: darkslategrey;
 }
@@ -84,8 +84,10 @@ footer a{
     display: block;
 }
 
+.contactHeader,
 .bookingHeader{
     padding-top: 10px;
+    font-weight: normal;
 }
 
 h1{
