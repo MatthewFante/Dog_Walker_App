@@ -1,4 +1,4 @@
-### Walk A Goodboi Dog Walking Service App
+### Walk A Goodboi&trade; Dog Walking Service App
 
 This is a practice project for <CODE>CODE Louisville</CODE>.
 
