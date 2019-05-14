@@ -15,7 +15,7 @@ header.innerHTML = headerContents();
 const footer = document.querySelector('.footerBlank');
 function footerContents(){
     var html = "";
-    html += "<small><a href='https://github.com/MatthewFante'>&copy; Matthew Fante 2019</a></small>"
+    html += "<small><a class='footerText' href='https://github.com/MatthewFante'>&copy; Matthew Fante 2019</a></small>"
     return html;
 };
 footer.innerHTML = footerContents();
