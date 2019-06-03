@@ -7,6 +7,15 @@
     <title>Walk A Goodboi&trade;</title>
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#datepicker" ).datepicker();
+        } );
+    </script>
+
 </head>
 <body>  
     <header class="headerBlank">
@@ -21,26 +30,26 @@
                 <form action="confirmation.html" method="GET">
                           <h3 class="bookingHeader">Book a Walker:</h3>
 
-                          <label for="date">Desired Date and Time:</label></br>
-                          <input type="date" id="date" name="date" value="mm/dd/yyyy">&nbsp;
-                          <input type="time" id="time" name="time" value="hh:mm am" ></br>
+                          <label for="date">Desired Date and Time:</label><br />
+                          <input type="text" id="datepicker" name="date" required />&nbsp;
+                          <input type="text" id="time" name="time" value="12:00 AM" required /><br />
                           
                           <label for="owner_name">Owner's Name:</label>
-                          <input type="text" id="owner_name" name="owner_name"></br>
+                          <input type="text" id="owner_name" name="owner_name" required /><br />
 
                           <label for="dog_name">Dog's Name:</label>
-                          <input type="text" id="dog_name" name="dog_name"></br>
+                          <input type="text" id="dog_name" name="dog_name" required /><br />
 
                           <label for="phone">Phone Number:</label>
-                          <input type="tel" id="phone" name="tel_number" pattern="[0-9]{10}"></br>
+                          <input type="tel" id="phone" name="tel_number" pattern="[0-9]{10}" required /><br />
                           
                           <label for="mail">Email address:</label>
-                          <input type="email" id="mail" name="user_email"></br>
+                          <input type="email" id="mail" name="user_email" required /><br />
 
                           <label for="requests">Special Requests:</label>
-                          <textarea id="requests" name="special_requests"></textarea></br>
+                          <textarea id="requests" name="special_requests"></textarea><br />
 
-                         <input type="submit" value="Book It!">
+                         <input type="submit" value="Book It!" />
                       </form>
             </div>
 
@@ -52,5 +61,6 @@
 </footer>
 
 <script src="js/script.js"></script>
+<script src="js/booking.js"></script>
 </body>
 </html>

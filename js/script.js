@@ -19,3 +19,5 @@ function footerContents(){
     return html;
 };
 footer.innerHTML = footerContents();
+
+
