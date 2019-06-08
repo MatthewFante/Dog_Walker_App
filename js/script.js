@@ -22,3 +22,9 @@ footer.innerHTML = footerContents();
 
 
 $('.contact').hide().slideDown();
+$('.booking').hide().slideDown(1000);
+$('.ourMission').hide().slideDown(1000);
+
+$( function() {
+    $( "#datepicker" ).datepicker();
+} );
