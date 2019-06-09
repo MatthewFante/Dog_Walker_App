@@ -1,2 +1,0 @@
-let date = new Date(); // Getting today's date.
-document.getElementById("datepicker").value = (date.getMonth()+1) + '/' + (date.getDate()+1)  + '/' + date.getFullYear() ; // Sets the input to today's date.
