@@ -20,12 +20,10 @@ function footerContents(){
 };
 footer.innerHTML = footerContents();
 
+// Add fade in effect to main sections of each page
+$('.fade').hide().fadeIn();
 
-$('.contact').hide().fadeIn();
-$('.booking').hide().fadeIn();
-$('.ourMission').hide().fadeIn();
-$('.confirmation').hide().fadeIn();
-
+// Date picker for booking page
 $( function() {
     $( "#datepicker" ).datepicker();
 } );
